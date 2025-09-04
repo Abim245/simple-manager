@@ -1,0 +1,180 @@
+body{
+    margin: none;
+    background-color: lightgray;
+    cursor: pointer;
+    height: 100vh;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.mode{
+    justify-content: end;
+}
+.container{
+    margin: 2px;
+    display: flex;
+    /* justify-content: space-between; */
+     height: 100vh;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+}
+.right {
+    background-color: white;
+    margin: 5px;
+}
+.left{
+    background-color: white;
+    width: 200px;
+   padding:15px 15px 0 15px;
+}
+.left .logo{
+    display: flex;
+    align-items: center;
+}
+.left .logo p{
+    color: blue;
+    /* position: absolute; */
+    /* top: 10px;
+    margin-left: 25px; */
+     margin-right: 10px;
+     padding: 20px;
+}
+.logo{
+    margin:5px;
+}
+.left .logo img{
+    /* position: relative; */
+    width: 30px;
+   
+}
+
+.task .set{
+    display: flex;
+    gap: 10px;
+}
+
+.left li{
+    margin-bottom: 10px;
+}
+.bottom{
+    margin-top: auto;
+    display: flex;
+    flex-direction:column ;
+    gap: 10px;
+    border-top: 1px solid #ddd;
+
+}
+.right-top{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.right-top .task button{
+   margin-left: auto;
+   margin-right: 10px;
+    background: none;
+     border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px ;
+    width: 150px;
+    height: 50px;
+}
+
+.right-top .nav{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.right-top .nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+.right-top .nav .user{
+    margin-left: auto;
+    gap: 0;
+}
+
+.right-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: lightgray;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 5px;
+
+}
+
+.right-bottom .child{
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+
+}
+.right-bottom .top{
+    display: flex;
+    flex-direction: row;
+}
+.right-bottom .top .img{
+    margin-left: auto;
+    gap: 0;
+}
+.right-bottom .body .topg{
+    display: flex;
+    flex-direction: row;
+}
+.right-bottom .body .topg .imgl{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: fit-content;
+}
+.images{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.images li{
+    display: flex;
+    flex-direction: row;
+}
+
+
+li{
+    list-style-type: none;    
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+li:hover{
+    background-color: blue;
+    color: white;
+}
+
+li:hover img{
+    filter: brightness(0) invert(1) ;
+}
